@@ -1,4 +1,4 @@
-.nav{
+#nav{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -6,22 +6,16 @@
     padding:0;
     text-align:center;
 }
-.nav li{
+#nav li{
     display:inline;
 }
-.nav a{
+#nav a{
     display:inline-block;
     padding:10px;
 }
 
 /* Change the color of links on hover */
-.nav a:hover {
+#nav a:hover {
   background-color: #ddd;
   color: black;
-}
-
-/* Add a color to the active/current link */
-.nav a.active {
-  background-color: #4CAF50;
-  color: white;
 }
