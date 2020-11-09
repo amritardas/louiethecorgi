@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    width: 100%;
   }
 
 body {
@@ -33,7 +34,7 @@ body {
 #myname {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     padding: 20px 0;
 }
 
@@ -60,7 +61,7 @@ h1 {
 .nav a{
     /* display:inline-block; */
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding:10px;
     color: #f1f1ef;
 }
@@ -95,14 +96,14 @@ h1 {
 }
 
 .mainsection-item p {
-    font-size: 20px;
+    font-size: 1em;
 }
 
 /* About */
 
 .container {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     background-color: #f1f1ef;
     padding: 20px;
