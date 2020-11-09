@@ -51,12 +51,13 @@ h1 {
     border-width:1px 0;
     list-style:none;
     margin:0;
-    padding:0;
-    text-align:center;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav li{
-    display:flex;
-    flex-direction: column;
+    text-align: center;
 }
 .nav a{
     /* display:inline-block; */
@@ -83,8 +84,8 @@ h1 {
 
 .mainsection {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mainsection-item {
@@ -97,6 +98,7 @@ h1 {
 
 .mainsection-item p {
     font-size: 1em;
+    text-align: center
 }
 
 /* About */
