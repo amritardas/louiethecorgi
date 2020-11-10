@@ -83,13 +83,13 @@ h1 {
 /* Home */
 
 .mainsection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 .mainsection-item {
     padding: 20px;
+    text-align: center;
 }
 
 .mainsection-item img {
@@ -98,15 +98,13 @@ h1 {
 
 .mainsection-item p {
     font-size: 1em;
-    text-align: center
 }
 
 /* About */
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: auto auto;
     background-color: #f1f1ef;
     padding: 20px;
     justify-content: center;
@@ -121,9 +119,9 @@ h1 {
 }
 
 .grid-item img {
-    width: 50%;
-    height: 50%;
-    /* max-width: 100%; */
+    width: 40%;
+    height: 40%;
+    min-width: 100px;
     border: 10px solid #c19434;
 }
 
