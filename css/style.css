@@ -5,7 +5,7 @@ html{
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #f1f1ef;
+    background-color: #D9C5B4;
 }
 
 .skip a{
@@ -42,14 +42,14 @@ a {
 
 h1 {
     font-size: 50px;
-    color: #c19434;
+    color: #A62424;
 }
 
 /* Navigation */
 
 .nav{
     border:1px solid #f1f1ef;
-    background-color: #34421e;
+    background-color: #A68263;
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -65,20 +65,20 @@ h1 {
     text-decoration: none;
     font-size: 1em;
     padding: 5px;
-    color: #f1f1ef;
+    color: white;
 }
 
 .nav a:hover {
-  background-color: #f1f1ef;
+  background-color: #D9C5B4;
   text-decoration-line: underline;
   color: black;
 }
 
 .nav .current {
-    background-color: #c19434;
-    color: #f1f1ef;
+    background-color: #D9C5B4;
+    color: #590313;
     text-decoration-line: underline;
-    border: 4px solid#34421e;
+    border: 4px solid#A62424;
 }
 
 /* Home */
@@ -106,7 +106,7 @@ h1 {
 .container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #f1f1ef;
+    background-color: #D9C5B4;
     padding: 20px;
     justify-content: center;
     align-content: center;
@@ -121,7 +121,7 @@ h1 {
 .grid-item img {
     width: 40%;
     min-width: 100px;
-    border: 10px solid #c19434;
+    border: 10px solid #f1f1ef;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -166,7 +166,7 @@ h1 {
 
 .gallery {
     display: flex;
-    background-color:#c19434;
+    background-color:#A68263;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -228,6 +228,10 @@ h3 {
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
+
+  .flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+  }
   
   .flip-card-front, .flip-card-back {
     position: absolute;
@@ -243,8 +247,8 @@ h3 {
   }
   
   .flip-card-back {
-    background-color: #34421e;
-    color: white;
+    background-color: #93BBBF;
+    color: #590313;
     transform: rotateY(180deg);
   }
 
@@ -255,7 +259,7 @@ h4 {text-align: center;}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #34421e;
+    border: 1px solid #590313;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -264,7 +268,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: #c19434;
+    background-color:#590313;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -273,12 +277,12 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #34421e;
+    background-color: #93BBBF;
 }
   
 .contactform {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #D9C5B4;
     padding: 20px;
 }
 
@@ -289,13 +293,13 @@ input[type=submit]:hover {
 /* Footer */
 
 footer {
-    border:1px solid #f1f1ef;
-    background-color: #34421e;
+    border:1px solid #A68263;
+    background-color: #A62424;
     border-width:1px 0;
 }
 
 footer p{
-    color: #f1f1ef;
+    color: white;
 }
 
 /* Media Queries */
@@ -312,17 +316,18 @@ footer p{
      }
 
      #main-index{
-         background-color:  #c19434;
+         background-color:  #93BBBF;
      }
 
      .container {
         grid-template-columns: auto;
-        background-color: #f1f1ef;
+        background-color: #93BBBF;
         padding-left: 200px;
         padding-right: 200px;
       }
 
       #main p {
+          color: black;
           text-align: center;
       }
     
