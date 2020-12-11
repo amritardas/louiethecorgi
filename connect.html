@@ -8,27 +8,56 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/wings.png"/>
     <title>Home</title>
   </head>
 <body>
   <div class="skip"><a href="#main">Skip to Main Content</a></div>
 <header>
   <div id="myname">
-    <h1>Amrita R. Das</h1>
+    <h1>Louie the Corgi</h1>
   </div>
   <nav>
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Photography</a></li>
-      <li><a href="dasresume.pdf">Resume</a></li>
+      <li><a href="portfolio.html">Photos</a></li>
+      <li><a href="resume.html">Resume</a></li>
       <li><a class="current" href="connect.html">Connect</a></li>
         </ul>
   </nav>
 </header>
 
 <main id="main">
-  <div class="contactinfo"><p>Amrita Das<br>amrdas@umich.edu</p></div>
+  <br>
+  <h4>Connect with me! Fill out your contact information below.</h4>
+
+<div class="contactform">
+  <form action="mailto:amritads8@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="mexico">Mexico</option>
+      <option value="bangladesh">Bangladesh</option>
+      <option value="india">India</option>
+      <option value="japan">Japan</option>
+      <option value="australia">Australia</option>
+      <option value="china">China</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something here. Anything!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </main>
 
 <footer>
