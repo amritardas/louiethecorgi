@@ -142,7 +142,7 @@ h1 {
   
   #anim{
      padding: 10px;
-     max-width: 100px;
+     width: 100px;
      position: relative;
      animation-name: flying;
      animation-duration: 10s;
@@ -279,10 +279,12 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #93BBBF;
 }
-  
+
 .contactform {
     border-radius: 5px;
-    background-color: #D9C5B4;
+    background-color: #93BBBF;
+    width: 50vh;
+    margin: auto;
     padding: 20px;
 }
 
@@ -304,35 +306,28 @@ footer p{
 
 /* Media Queries */
 
+/* Media Query for Tablets */
+
 @media screen and (min-width: 800px){
+
+    /* Home */
     #anim{
         padding: 10px;
-        max-width: 200px;
+        width: 150px;
         position: relative;
         animation-name: flying;
-        animation-duration: 8s;
+        animation-duration: 12s;
         animation-timing-function: linear;
         animation-iteration-count: 10;
-     }
+    }
 
-     #main-index{
+    #main-index{
          background-color:  #93BBBF;
-     }
+    }
 
-     .container {
-        grid-template-columns: auto;
-        background-color: #93BBBF;
-        padding-left: 200px;
-        padding-right: 200px;
-      }
-
-      #main p {
-          color: black;
-          text-align: center;
-      }
-    
-    .grid-item img {
-        width: 100%;
+    #main p {
+       color: black;
+       text-align: center;
     }
 
     .mainsection-item img {
@@ -345,6 +340,76 @@ footer p{
         margin-right: 50px;
     }
 
+    /* About */
+    #description1 p {
+        text-align: right;
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+    }
+    
+    #description2 p {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+    }
+    
+    .grid-item img {
+        width: 100%;
+    }
+
+    /* Connect */
+    .contactform {
+        width: 70vh;
+    }
+}
+
+/* Media Query for Desktop/Laptop */
+
+@media screen and (min-width: 1200px){
+    /* Home */
+    #anim{
+        padding: 10px;
+        width: 200px;
+        position: relative;
+        animation-name: flying;
+        animation-duration: 14s;
+        animation-timing-function: linear;
+        animation-iteration-count: 10;
+    }
+
+    /* About */
+    .container {
+        grid-template-columns: auto;
+        background-color: #93BBBF;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #description1 p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #description2 p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .grid-item img {
+        max-width: 50vh;
+    }
+
+    #main-resume {
+        background-color: #93BBBF
+    }
+
+    /* Connect */
+    .contactform {
+        background-color: #D9C5B4;
+        width: 90%;
+    }
 }
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -370,24 +435,4 @@ footer p{
         margin: auto;
      }
 
-    }
-
-@media print {
-    body {background: transparent;}
-
-    #anim{
-        display: block;
-        margin: auto;
-        animation-name: flying;
-        animation: none;
-    }
-
-    #main-resume div{
-        display: none;
-    }
-
-    h3 {
-        display: block;
-        text-align: center;
-    }
 }
