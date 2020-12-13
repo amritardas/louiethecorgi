@@ -256,6 +256,8 @@ h2 {
 
 #main-resume p {
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 input[type=text], select, textarea {
