@@ -192,7 +192,7 @@ h1 {
 
 /* Resume */
 
-h3 {
+h2 {
     display: none;
 }
 
@@ -254,7 +254,7 @@ h3 {
 
 /* Connect */
 
-h4 {text-align: center;}
+h3 {text-align: center;}
 
 input[type=text], select, textarea {
     width: 100%;
