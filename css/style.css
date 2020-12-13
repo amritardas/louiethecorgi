@@ -49,7 +49,7 @@ h1 {
 
 .nav{
     border:1px solid #f1f1ef;
-    background-color: #A68263;
+    background-color: #996515;
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -166,7 +166,7 @@ h1 {
 
 .gallery {
     display: flex;
-    background-color:##996515;
+    background-color:#A68263;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -299,7 +299,7 @@ input[type=submit]:hover {
 /* Footer */
 
 footer {
-    border:1px solid #996515;
+    border:1px solid #A68263;
     background-color: #A62424;
     border-width:1px 0;
 }
